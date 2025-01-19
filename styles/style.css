@@ -204,6 +204,58 @@ img:hover {
 
 
 /* Hot Deal */
+.hot-deal {
+    background-color: rgba(229, 84, 115, 0.05);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 620px;
+    /* gap: 162px; */
+}
+
+.hot-deal-info {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; */
+    text-align: center;
+    /* margin: 0px auto; */ /* Already flexed there, so don't need to center them. */
+    width: 594px;
+    height: 230px; 
+    display: block;
+    /* border: 1px solid rgba(229, 84, 115, 1); */
+
+}
+
+.deal-title {
+    color: rgba(39, 39, 39, 1);
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: auto;
+}
+
+.off {
+    color: rgba(229, 84, 115, 1);
+}
+
+.deal-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.25rem;
+    line-height: 30px;
+    margin: 24px 0px 32px 0px;
+}
+
+.sign-up {
+    padding: 20px 43px;
+}
+
+.deal-img img {
+    width: 318px;
+    height: 420px;
+}
+
+
+
 
 /* Instagram */
 

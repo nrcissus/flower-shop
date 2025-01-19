@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.lato-light {
+    font-family: "Lato", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.lato-regular {
+    font-family: "Lato", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lato-bold {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lato-black {
+    font-family: "Lato", serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+    margin: 200px 240px;
+    display: flex;
+}
+
+
+/* HEADER */
+.banner {
+ padding: 200px 240px;
+ display: flex;
+ height: 850px;
+ background: rgba(229, 84, 115, 0.1);
+}
+
+.banner-container {
+  width: 850px;
+}
+
+.banner-title {
+    font-size: 5rem;
+    font-weight: 800;
+    color: #272727;
+}
+
+.banner-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.6);
+    /* line-height: 30px; */
+    margin: 32px 0px; /* TopBottm RightLeft */
+}
+
+.banner-btn {
+    display: inline-flex;
+    align-items: flex-start;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    border: none;
+    background-color: rgba(229, 84, 115, 1);
+    padding: 20px 40px;
+    border-radius: 8px;
+}
+
+.banner-img img {
+    height: 800px;
+    width: 635px;
+}
+
+.banner-img {
+    margin-left: 500px;
+    margin-top: -150px;
+}
+
+
+
+
+
+/*
+
+img:hover {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+
+
+*/
+
+
+/* MAIN */
+
+
+/* Featured Flowers */
+/* starting feature section */
+
+.feature-title h2 {
+    color: rgba(39, 39, 39, 1);
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 170px;
+    margin-bottom: 30px;
+}
+
+.feature-title p {
+    width: 600px;
+    color: rgba(39, 39, 39, 0.6);
+    text-align: center;
+    font-size: 18px;
+    font-size: 400;
+    margin: 0px auto;
+}
+
+/* flowers display setting */
+.feature-body {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px ;
+}
+
+.flower-display {
+    /* border: 1px solid rgba(229, 84, 115, 1); */
+    width: 464px;
+    height: 538px;
+    display: flex;
+    align-items:end;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.display-img {
+    border-radius: 300px 300px 0px 0px;
+}
+
+.green {
+    background-color: rgba(5, 151, 160, 0.15);
+}
+
+.lime {
+    background-color: rgba(71, 125, 17, 0.15);
+}
+
+.feature-body p {
+    color: rgba(39, 39, 39, 1);
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    /* text-decoration-line: underline; */
+    line-height: 35px;
+    margin: 30px 0px;
+}
+
+/* Delivery */
+
+/* Hot Deal */
+
+/* Instagram */
+
+/* Subscribe */

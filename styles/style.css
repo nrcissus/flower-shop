@@ -254,9 +254,40 @@ img:hover {
     height: 420px;
 }
 
-
-
-
 /* Instagram */
+.instagram {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    color: rgba(39, 39, 39, 1);
+    font-size: 2.5rem;
+    font-weight: 800;
+    /* text-align: center; */
+}
+
+.description {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.125rem;
+    line-height: 30px;
+    width: 594px;
+    margin: 24px 0px 48px 0px;
+
+    /* text-align: center; */
+}
+
+.insta-img {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.instagram-section {
+    margin: 128px 0px;
+}
 
 /* Subscribe */

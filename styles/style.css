@@ -73,6 +73,12 @@
     background-color: rgba(229, 84, 115, 1);
     padding: 20px 40px;
     border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner-btn:hover {
+    background-color: rgba(229, 84, 115, 0.8);
 }
 
 .banner-img img {
@@ -291,3 +297,137 @@ img:hover {
 }
 
 /* Subscribe */
+.subscribe {
+    background-image: url(../Flower\ Asset/Rectangle\ 9.png);
+    background-size: cover;
+    height: 449px;
+    width: 1440px;
+    margin-bottom: 128px;
+    margin: 0px auto;
+}
+
+.subscribe-info {
+    /* text-align: center;
+    margin: 0px auto;
+    width: fit-content;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%); */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+}
+
+.subscribe-info h1 {
+    color: rgba(39, 39, 39, 1);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.subscribe-info form {
+    display: flex;
+    gap: 16px;
+}
+
+.subscribe-info p {
+    color: rgba(39, 39, 39, 0.6);
+    font-size: 1.25rem;
+    margin: 16px 0px 48px 0px;
+}
+
+.subscribe-info input[type="email"] {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    padding: 20px;
+}
+
+.subscribe-btn {
+    width: 150px;
+    height: 64px;
+    color: white;
+    font-size: 1.25rem;
+    font-weight: 700;
+    border-radius: 8px;
+    background-color: rgba(229, 84, 115, 1);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: rgba(229, 84, 115, 0.8);
+}
+
+/* Footer */
+footer {
+    background-color: rgba(17, 16, 16, 1);
+    width: 100%;
+    height: 449px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 128px;
+    animation: slideIn 1s ease-in-out;
+}
+
+.footer h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    animation: slideIn 1s ease-in-out; /* Apply slide-in animation */
+}
+
+.flower {
+    color: rgba(229, 84, 115, 1);
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.shop {
+    color: white;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 1.25rem;
+    margin: 24px 0px 32px 0px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 1rem;
+    animation: fadeIn 2s ease-in-out 2s;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
